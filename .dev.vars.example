@@ -1,0 +1,4 @@
+# Copie para .dev.vars se quiser escolher as credenciais iniciais da dona.
+# Só são usadas quando ainda não existe nenhuma conta de dona na base de dados.
+OWNER_USERNAME=gabi
+OWNER_PASSWORD=troque-esta-palavra-passe

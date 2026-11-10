@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "barbearia-da-gabi",
+  "main": "src/worker/index.ts",
+  "compatibility_date": "2026-09-29",
+  "assets": {
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "barbearia-da-gabi",
+      "database_id": "8f4b6c2d-3a1e-4b7c-9d2f-5e6a7b8c9d0e"
+    }
+  ],
+  "observability": { "enabled": true }
+}
